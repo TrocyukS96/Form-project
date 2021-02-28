@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="/css/normalize.css">
+   <link rel="stylesheet" href="/css/index.css">
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap" rel="stylesheet">
+   <title>Document</title>
+</head>
+<body>
+   <div class="wrapper">
+      <div class="overlay"></div>
+   <form action="#" method="POST" enctype="multipart/form-data" class="form">
+      <div class="form-header header">
+         
+         <div class="header-button__top">
+            <button class="button__top"> <img class="button__img" src="assets/image/btn/х.png" ></button>
+         </div>
+         <nav class="header__menu menu">
+            <div class="menu__list">
+               <li class="menu__item"><a href="" class="menu__link">Главная</a></li>
+               <li class="menu__item"><a href="" class="menu__link">Контакты</a></li>
+               <li class="menu__item"><a href="" class="menu__link">Форма обратной связи</a></li>
+            </div>
+         </nav>
+         <h1 class="header__title"> Форма обратной связи</h1>
+      </div>
+         <div class="form-body">
+            <div class="form-input">
+               <div class="form__item">
+                  <input class="input__name" type="text" placeholder="Иванов Иван Иванович" >
+               </div>
+               <div class="form__item">
+                  <input class="input__mail" type="email" placeholder="Введите Ваш Email" >
+               </div>
+               <div class="form__item">
+                  <input class="input__tel" type="tel" placeholder="Введите Ваш телефон" >
+               </div>
+               <div class="form__item">
+                  <textarea class="textarea" name="text" placeholder="Введите Ваш телефон" ></textarea>
+               </div>
+            </div>
+         </div>
+         <div class="form-capcha capcha">
+            <div class="capcha__text">
+               <div class="capcha__item">
+                  <input class="capcha__input" type="text" >
+               </div>
+               <a href="#" class="capcha__link">Введите код на картинке справа</a>
+            </div>
+            <button class="capcha__button"><img class="capcha__img" src="/assets/image/capcha.png" alt="capcha-img" ></button>
+         </div>
+      <button class="form-button" type="submit">Отправить</button>
+   </form>
+   </div>
+</body>
+</html>
